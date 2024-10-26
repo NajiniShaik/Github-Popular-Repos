@@ -1,0 +1,87 @@
+.repository-detailed-container {
+  background-color: #f8f8ff;
+  padding: 30px 50px;
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 576px) {
+  .repository-detailed-container {
+    width: 45%;
+  }
+}
+
+@media (min-width: 768px) {
+  .repository-detailed-container {
+    width: 30%;
+  }
+}
+
+.repository-logo {
+  height: 80px;
+  width: 80px;
+}
+
+@media (min-width: 768px) {
+  .repository-logo {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+.name {
+  color: #e73959;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .name {
+    font-size: 20px;
+  }
+}
+
+.first-card {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin-bottom: 16px;
+}
+
+.count {
+  color: #1e293b;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin: 0px;
+  margin-left: 20px;
+  padding: 0px;
+}
+
+@media (min-width: 768px) {
+  .count {
+    font-size: 16px;
+  }
+}
+
+.icons {
+  height: 15px;
+  width: 15px;
+}
+
+@media (min-width: 768px) {
+  .icons {
+    height: 25px;
+    width: 25px;
+  }
+}

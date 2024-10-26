@@ -1,0 +1,82 @@
+.github-popular-repos-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.detailed-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0px auto;
+  background-color: #ffffff;
+}
+
+.main-heading {
+  color: #0f172a;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Lobster';
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .main-heading {
+    font-size: 44px;
+  }
+}
+
+.filter-icons-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .filter-icons-list {
+    gap: 30px;
+  }
+}
+
+.repos-list {
+  width: 90%;
+  list-style-type: none;
+  margin: 50px auto 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .repos-list {
+    width: 80%;
+    justify-content: flex-start;
+  }
+}
+
+.container {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.failure-logo {
+  height: 40vh;
+}
+
+.title {
+  color: #0f172a;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Lobster';
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 44px;
+  }
+}

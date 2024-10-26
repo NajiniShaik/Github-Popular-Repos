@@ -1,0 +1,21 @@
+.filter-icon {
+  background-color: #ffffff;
+  color: #0f172a;
+  padding: 6px 10px;
+  border: 1px solid #0f172a;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .filter-icon {
+    padding: 6px 20px;
+    font-size: 16px;
+  }
+}
+.active-filter {
+  color: #0284c7;
+  border-color: #0284c7;
+}
